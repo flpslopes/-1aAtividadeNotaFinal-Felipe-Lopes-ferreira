@@ -1,0 +1,42 @@
+
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #e0f7fa;
+            text-align: center;
+            color: #00796b;
+        }
+
+        .perfil-container {
+            margin: 30px auto;
+            padding: 15px;
+            border: 1px solid #00796b;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            background-color: #ffffff;
+        }
+
+        .foto-perfil {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin: 0 auto 15px;
+
+            display: block;
+
+            overflow: hidden;
+        }
+
+        .foto-perfil img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+        h1 {
+            font-size: 1.8em;
+            color: #004d40;
+        }
+    
